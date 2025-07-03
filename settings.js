@@ -9,7 +9,7 @@ const chalk = require('chalk')
 require('dotenv').config()
 
 //contact details - sensitive info moved to .env
-global.SESSION_ID = process.env.SESSION_ID || "" //fallback to default if not in .env
+global.SESSION_ID = process.env.SESSION_ID || "HansTz&60x1wTpI#5loJ2TZYdHzg57XE5ax6aF4v-nxCTVfN5Y50VSnK99A" //fallback to default if not in .env
 global.ownernomer = process.env.OWNER_NUMBER || "255614195217"
 
 global.ownername = process.env.OWNER_NAME || "HansTech"
